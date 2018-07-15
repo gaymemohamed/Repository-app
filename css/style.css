@@ -1,0 +1,57 @@
+/* start Main header */
+#main-header{
+    background-color: darkslategrey;
+}
+
+#users{
+    height: 79px;
+    margin-bottom: -11px;
+    margin-left: 36px;
+    margin-top: -2px;
+    width: 135px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    padding: 7px;
+    outline: 0px;
+    font-weight: bold;
+}
+.logo-card{
+    color: black;
+    background-color: #fff;
+    height: 75px;
+}
+.solgan-img{
+    margin-top: -12px;
+    float: right;
+    border: 1px solid #fff;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.slogan-text{
+    float: right;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-right: 25px;
+}
+/* end main header */
+
+/* start body section */
+.main-card{
+    height: 488px;
+}
+.title{
+    float: right;
+}
+.content{
+    display: flex;
+    float: right;
+}
+
+.category-item{
+float: right;
+}
+.category-item span{
+    padding-right: 10px
+}

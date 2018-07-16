@@ -116,7 +116,11 @@ label{
 /* end add new user */
 /* start usertable */
 .users-table{
+    text-align: center;
     border: 1px solid #ccc;
+}
+th{
+    text-align: center
 }
 .add-user{
     background-color: lightgray;

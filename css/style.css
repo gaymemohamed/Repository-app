@@ -59,6 +59,10 @@ float: right;
     padding-right: 10px
 }
 /* end users body */
+/* start add new user */
+.add-new-user{
+    display: none;
+}
 .breadcrumb{
     background-color: rgb(247, 247, 247);
     height: 40px;
@@ -108,4 +112,17 @@ label{
     width: 178px;
     color: #000;
     font-weight: bold;
+}
+/* end add new user */
+/* start usertable */
+.users-table{
+    border: 1px solid #ccc;
+}
+.add-user{
+    background-color: lightgray;
+    float: right;
+    position: relative;
+    top: 9px;
+    width: 178px;
+    color: #000;
 }

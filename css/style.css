@@ -37,7 +37,10 @@
 }
 /* end main header */
 
-/* start body section */
+/* start  users body section */
+.users-body{
+    display: none;
+}
 .main-card{
     height: 488px;
 }
@@ -54,4 +57,55 @@ float: right;
 }
 .category-item span{
     padding-right: 10px
+}
+/* end users body */
+.breadcrumb{
+    background-color: rgb(247, 247, 247);
+    height: 40px;
+}
+.breadcrumb-item{
+    font-size: 25px;
+    float: right;
+    font-weight: bold;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    float: right;
+}
+.inputUserData{
+    border: 1px solid #ccc;
+    padding: 25px;
+    border-radius: 14px;
+    margin-top: 30px;
+}
+legend{
+    background-color: lightgrey;
+    width: 290px;
+    color: #000;
+    font-weight: bold;
+    font-size: 23px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    position: relative;
+    top: -60px;
+    right: -361px;
+}
+.form-row{
+    position: relative;
+    top: -40px;
+    padding: 5px;
+}
+label{
+    float: right;
+}
+.addBtn{
+    background-color: lightgray;
+    float: right;
+    margin-bottom: -42px;
+    position: relative;
+    top: -42px;
+    right: 4px;
+    width: 178px;
+    color: #000;
+    font-weight: bold;
 }

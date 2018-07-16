@@ -35,10 +35,11 @@
     </header>
 <!-- end Main Header -->
 
-<!-- start body section -->
+<!-- start dash body section -->
 <section class="dash-boby mt-5">
     <div class="container">
         <div class="row">
+            <div class="users-body">
             <div class="col-md-8">
                 <div class="card main-card">
                     <div class="card-header">
@@ -80,13 +81,63 @@
             </div>
             </div>
             </div>
-            <!-- side bar -->
+        </div>
+            <!-- end users section -->
+
+            <!-- start add new user -->  
+            <div class="col-md-8 add-new-user">
+                <div class="card main-card">
+                    <div class="card-header">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">لوحة التحكم</a></li>
+                            <li class="breadcrumb-item active">إضافة عضو جديد</li>
+                        </ol>
+                    </div>
+                    <br>
+                    <div class="content"> 
+                    <div class="col  ml-auto">
+                        <form class="inputUserData">
+                            <fieldset>
+                                <legend>بيانات العضو داخل التطبيق</legend>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="inputUserPower">صلاحية العضو</label>
+                                <select id="inputUserPower" class="form-control">
+                                    <option selected disabled>اختار...</option>
+                                    <option>ادمن</option>
+                                    <option>مشرف</option>
+                                  </select>
+                              </div>
+                              <div class="form-group col-md-6">
+                                <label for="inputUserName">اسم العضو</label>
+                                <input type="text" class="form-control" id="inputUserName" placeholder="ادخل الاسم">
+                              </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                  <label for="inputPassword">كلمة المرور</label>
+                                  <input type="password" class="form-control" id="inputPassword" placeholder="ادخل كلمة المرور">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputUserEmail">البريد الإلكتروني</label>
+                                    <input type="text" class="form-control" id="inputUserEmail" placeholder="ادخل البريد الإلكتروني">
+                                  </div>
+                              </div>
+                              
+                            <button type="submit" class="addBtn btn  btn-lg">إضافة العضو</button>
+                            </fieldset>
+                          </form>        
+                </div>
+            </div>
+            </div>
+            </div>
+            <!-- start side bar -->
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">
                         <div class="category ">
                             <div class="category-item ">
-                                <h4 class="category-header ">
+                                <h4 class="category-header cat-users">
                                         <span>الأعضاء</span> <i class="fa fa-users fa-lg"></i>
                                 </h4>
                             </div>
@@ -97,7 +148,7 @@
                     <div class="card-header">
                         <div class="category ">
                             <div class="category-item ">
-                                <h4 class="category-header ">
+                                <h4 class="category-header cat-add-user">
                                         <span>إضافة عضو جديد</span> <i class="fa fa-user-plus fa-lg"></i>
                                 </h4>
                             </div>
@@ -108,7 +159,7 @@
                     <div class="card-header">
                         <div class="category ">
                             <div class="category-item ">
-                                <h4 class="category-header ">
+                                <h4 class="category-header cat-objects">
                                         <span>الأصناف</span> <i class="fa fa-cubes fa-lg"></i>
                                 </h4>
                             </div>
@@ -119,7 +170,7 @@
                         <div class="card-header">
                             <div class="category ">
                                 <div class="category-item ">
-                                    <h4 class="category-header ">
+                                    <h4 class="category-header cat-bills">
                                             <span>الفواتير</span> <i class="fa fa-credit-card fa-lg"></i> 
                                     </h4>
                                 </div>
@@ -130,7 +181,7 @@
                             <div class="card-header">
                                 <div class="category ">
                                     <div class="category-item ">
-                                        <h4 class="category-header ">
+                                        <h4 class="category-header cat-add-new-obj">
                                                 <span>إضافة صنف جديد</span> <i class="fa fa-plus-circle fa-lg"></i> 
                                         </h4>
                                     </div>
@@ -141,7 +192,7 @@
                                 <div class="card-header">
                                     <div class="category ">
                                         <div class="category-item ">
-                                            <h4 class="category-header ">
+                                            <h4 class="category-header cat-make-new-bill">
                                                     <span>عمل فاتورة جديدة</span> <i class="fa fa-plus-circle fa-lg"></i> 
                                             </h4>
                                         </div>
@@ -152,7 +203,7 @@
                                     <div class="card-header">
                                         <div class="category ">
                                             <div class="category-item ">
-                                                <h4 class="category-header ">
+                                                <h4 class="category-header cat-contact">
                                                     <span>تواصل معنا</span> <i class="fa fa-life-buoy fa-lg"></i>  
                                                 </h4>
                                             </div>

@@ -38,9 +38,7 @@
 /* end main header */
 
 /* start  users body section */
-.users-body{
-    display: none;
-}
+
 .main-card{
     height: 488px;
 }
@@ -60,9 +58,7 @@ float: right;
 }
 /* end users body */
 /* start add new user */
-.add-new-user{
-    display: none;
-}
+
 .breadcrumb{
     background-color: rgb(247, 247, 247);
     height: 40px;
@@ -113,9 +109,7 @@ label{
 }
 /* end add new user */
 /* start usertable */
-.users{
-    display: none;
-}
+
 .users-table{
     text-align: center;
     border: 1px solid #ccc;
@@ -134,9 +128,6 @@ th{
 }
 /* end usertable */
 /* start object table */
-.objects{
-    display: none;
-}
 .objects-table{
     border: 1px solid #ccc;
     text-align: center

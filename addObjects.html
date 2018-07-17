@@ -39,47 +39,48 @@
 <section class="dash-boby mt-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
-                <div class="card main-card">
-                    <div class="card-header">
-                        <h4 class="title">لوحة التحكم</h4>
-                    </div>
-                    <br>
-                    <div class="content"> 
-                    <div class="col-md-4  ml-auto">
-                            <div class="card text-center bg-secondary text-white mb-5">
-                              <div class="card-body">
-                                <h5>عدد الأدمن</h5>
-                                <h1 class="display-5">
-                                  <i class="fa fa-users"></i> 6
-                                </h1>
-                             </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ml-auto">
-                        <div class="card text-center bg-secondary text-white mb-5 ">
-                          <div class="card-body">
-                            <h5>الأصناف</h5>
-                            <h1 class="display-5">
-                              <i class="fa fa-cubes"></i> 6
-                            </h1>
-                         </div>
-                </div>
-                </div>
-                <div class="col-md-4 ml-auto">
-                        <div class="card text-center bg-secondary text-white mb-5 ">
-                          <div class="card-body">
-                            <h5>الفواتير</h5>
-                            <h1 class="display-5">
-                              <i class="fa fa-credit-card"></i> 6
-                            </h1>
-                         </div>
-                </div>
-                </div>
-            </div>
-            </div>
+<!-- start add objects -->  
+<div class="col-md-8 objects">
+    <div class="card main-card">
+        <div class="card-header">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">لوحة التحكم</a></li>
+                <li class="breadcrumb-item active">الأصناف</li>
+            </ol>
         </div>
-            <!-- end users section -->
+        <br>
+        <div class="content"> 
+        <div class="col  ml-auto">
+                <table class="table table-striped objects-table">
+                        <thead class="thead-inverse">
+                          <tr>
+                            <th>إضافة</th>
+                            <th>الإجمالي</th>
+                            <th>السعر</th>
+                            <th>الوحدة</th>
+                            <th>كمية</th>
+                            <th>إسم الصنف</th>
+                            <th>كود الصنف</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><a href="#" class="btn btn-primary">إضافة كمية جديدة</a></td>
+                            <td>800</td>
+                            <td>4</td>
+                            <td>عدد</td>
+                            <td>200</td>
+                            <td>لمبات فينوس</td>
+                            <td scope='row'>1</td>
+                          </tr>
+                         </tbody>
+                         </table>
+                         <button class="btn btn-lg add-object">إضافة صنف جديد</button>
+    </div>
+</div>
+</div>
+</div>
+    
             <!-- start side bar -->
             <div class="col-md-4">
                 <div class="card">

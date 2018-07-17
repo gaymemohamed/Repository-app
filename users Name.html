@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Repositry app</title>
+  <title>users Name</title>
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap4-min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -39,48 +39,48 @@
 <section class="dash-boby mt-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+<!-- start add new user -->  
+            <div class="col-md-8 users">
                 <div class="card main-card">
                     <div class="card-header">
-                        <h4 class="title">لوحة التحكم</h4>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">لوحة التحكم</a></li>
+                            <li class="breadcrumb-item active">الأعضاء</li>
+                        </ol>
                     </div>
                     <br>
                     <div class="content"> 
-                    <div class="col-md-4  ml-auto">
-                            <div class="card text-center bg-secondary text-white mb-5">
-                              <div class="card-body">
-                                <h5>عدد الأدمن</h5>
-                                <h1 class="display-5">
-                                  <i class="fa fa-users"></i> 6
-                                </h1>
-                             </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ml-auto">
-                        <div class="card text-center bg-secondary text-white mb-5 ">
-                          <div class="card-body">
-                            <h5>الأصناف</h5>
-                            <h1 class="display-5">
-                              <i class="fa fa-cubes"></i> 6
-                            </h1>
-                         </div>
-                </div>
-                </div>
-                <div class="col-md-4 ml-auto">
-                        <div class="card text-center bg-secondary text-white mb-5 ">
-                          <div class="card-body">
-                            <h5>الفواتير</h5>
-                            <h1 class="display-5">
-                              <i class="fa fa-credit-card"></i> 6
-                            </h1>
-                         </div>
-                </div>
+                    <div class="col  ml-auto">
+                            <table class="table table-striped users-table">
+                                    <thead class="thead-inverse">
+                                    <tr>
+                                        <th>صلاحية العضو</th>
+                                        <th>اسم العضو</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>مشرف</td>
+                                        <td>جمال الدين محمد</td>
+                                    </tr>
+                                    <tr>
+                                        <td>أدمن</td>
+                                        <td>رفعت محمود عيش</td>
+                                    </tr>
+                                    <tr>
+                                        <td>أدمن</td>
+                                        <td>حسين احمد حسين</td>
+                                    </tr>
+                
+                                    </tbody>
+                                    </table>
+                                    <button class="btn btn-lg add-user">إضافة عضو جديد</button>
                 </div>
             </div>
             </div>
-        </div>
-            <!-- end users section -->
-            <!-- start side bar -->
+            </div>
+            
+<!-- start side bar -->
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">

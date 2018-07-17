@@ -39,47 +39,35 @@
 <section class="dash-boby mt-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <!-- start add to store -->  
+            <div class="col-md-8 add-to-store">
                 <div class="card main-card">
                     <div class="card-header">
-                        <h4 class="title">لوحة التحكم</h4>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">لوحة التحكم</a></li>
+                            <li class="breadcrumb-item active">إضافة كمية جديدة</li>
+                        </ol>
                     </div>
                     <br>
                     <div class="content"> 
-                    <div class="col-md-4  ml-auto">
-                            <div class="card text-center bg-secondary text-white mb-5">
-                              <div class="card-body">
-                                <h5>عدد الأدمن</h5>
-                                <h1 class="display-5">
-                                  <i class="fa fa-users"></i> 6
-                                </h1>
-                             </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ml-auto">
-                        <div class="card text-center bg-secondary text-white mb-5 ">
-                          <div class="card-body">
-                            <h5>الأصناف</h5>
-                            <h1 class="display-5">
-                              <i class="fa fa-cubes"></i> 6
-                            </h1>
-                         </div>
-                </div>
-                </div>
-                <div class="col-md-4 ml-auto">
-                        <div class="card text-center bg-secondary text-white mb-5 ">
-                          <div class="card-body">
-                            <h5>الفواتير</h5>
-                            <h1 class="display-5">
-                              <i class="fa fa-credit-card"></i> 6
-                            </h1>
-                         </div>
-                </div>
+                    <div class="col  ml-auto">
+                        <form class="inputUserData">
+                            <fieldset>
+                                <legend class="storeLegand">إضافة الي المخزون</legend>
+                            <div class="form-row">
+                            <div class="form-group col-md-6 add-to-store-form">
+                                <label for="inputCount" class="adding">إضافة كمية جديدة</label>
+                                <input type="text" class="form-control" id="inputCount" placeholder="">
+                            </div>
+                            </div>
+                                            
+                            <button type="submit" class="addToStoreBtn btn btn-block  btn-lg">إضافة الكمية</button>
+                            </fieldset>
+                        </form>        
                 </div>
             </div>
             </div>
-        </div>
-            <!-- end users section -->
+            </div>
             <!-- start side bar -->
             <div class="col-md-4">
                 <div class="card">

@@ -39,47 +39,55 @@
 <section class="dash-boby mt-5">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <!-- start add new user -->  
+            <div class="col-md-8 add-new-user">
                 <div class="card main-card">
                     <div class="card-header">
-                        <h4 class="title">لوحة التحكم</h4>
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">لوحة التحكم</a></li>
+                            <li class="breadcrumb-item active">إضافة عضو جديد</li>
+                        </ol>
                     </div>
                     <br>
                     <div class="content"> 
-                    <div class="col-md-4  ml-auto">
-                            <div class="card text-center bg-secondary text-white mb-5">
-                              <div class="card-body">
-                                <h5>عدد الأدمن</h5>
-                                <h1 class="display-5">
-                                  <i class="fa fa-users"></i> 6
-                                </h1>
-                             </div>
-                    </div>
-                </div>
-                <div class="col-md-4 ml-auto">
-                        <div class="card text-center bg-secondary text-white mb-5 ">
-                          <div class="card-body">
-                            <h5>الأصناف</h5>
-                            <h1 class="display-5">
-                              <i class="fa fa-cubes"></i> 6
-                            </h1>
-                         </div>
-                </div>
-                </div>
-                <div class="col-md-4 ml-auto">
-                        <div class="card text-center bg-secondary text-white mb-5 ">
-                          <div class="card-body">
-                            <h5>الفواتير</h5>
-                            <h1 class="display-5">
-                              <i class="fa fa-credit-card"></i> 6
-                            </h1>
-                         </div>
-                </div>
+                    <div class="col  ml-auto">
+                        <form class="inputUserData">
+                            <fieldset>
+                                <legend>بيانات العضو داخل التطبيق</legend>
+                            <div class="form-row">
+                              <div class="form-group col-md-6">
+                                <label for="inputUserPower">صلاحية العضو</label>
+                                <select id="inputUserPower" class="form-control">
+                                    <option selected disabled>اختار...</option>
+                                    <option>ادمن</option>
+                                    <option>مشرف</option>
+                                  </select>
+                              </div>
+                              <div class="form-group col-md-6">
+                                <label for="inputUserName">اسم العضو</label>
+                                <input type="text" class="form-control" id="inputUserName" placeholder="ادخل الاسم">
+                              </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                  <label for="inputPassword">كلمة المرور</label>
+                                  <input type="password" class="form-control" id="inputPassword" placeholder="ادخل كلمة المرور">
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="inputUserEmail">البريد الإلكتروني</label>
+                                    <input type="text" class="form-control" id="inputUserEmail" placeholder="ادخل البريد الإلكتروني">
+                                  </div>
+                              </div>
+                              
+                            <button type="submit" class="addBtn btn  btn-lg">إضافة العضو</button>
+                            </fieldset>
+                          </form>        
                 </div>
             </div>
             </div>
-        </div>
-            <!-- end users section -->
+            </div>
+
+      
             <!-- start side bar -->
             <div class="col-md-4">
                 <div class="card">

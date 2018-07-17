@@ -70,7 +70,6 @@ float: right;
 .breadcrumb-item{
     font-size: 25px;
     float: right;
-    font-weight: bold;
 }
 .breadcrumb-item+.breadcrumb-item::before{
     float: right;
@@ -85,7 +84,6 @@ legend{
     background-color: lightgrey;
     width: 290px;
     color: #000;
-    font-weight: bold;
     font-size: 23px;
     padding: 10px;
     border: 1px solid #ccc;
@@ -156,8 +154,7 @@ th{
     background-color: lightgrey;
     width: 216px;
     color: #000;
-    font-weight: bold;
-    font-size: 23px;
+    font-size: 20px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 15px;
@@ -181,9 +178,9 @@ th{
 .addToStoreBtn{
     background-color: lightgray;
     position: relative;
-    right: -196px;
+    right: -140px;
     top: -49px;
-    width: 208px;
+    width:320px;
     color: #000;
     cursor: pointer;
 }

@@ -115,6 +115,9 @@ label{
 }
 /* end add new user */
 /* start usertable */
+.users{
+    display: none;
+}
 .users-table{
     text-align: center;
     border: 1px solid #ccc;
@@ -129,4 +132,58 @@ th{
     top: 9px;
     width: 178px;
     color: #000;
+    cursor: pointer;
+}
+/* end usertable */
+/* start object table */
+.objects{
+    display: none;
+}
+.objects-table{
+    border: 1px solid #ccc;
+    text-align: center
+}
+.add-object{
+    background-color: lightgray;
+    float: right;
+    position: relative;
+    top: 9px;
+    width: 178px;
+    color: #000;
+    cursor: pointer;
+}
+.storeLegand{
+    background-color: lightgrey;
+    width: 216px;
+    color: #000;
+    font-weight: bold;
+    font-size: 23px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    position: relative;
+    top: -60px;
+    right: -404px;
+}
+#inputCount{
+    position: relative;
+    left: 140px;
+}
+.adding{
+    position: relative;
+    top: 37px;
+    left: 299px;
+}
+.add-to-store-form{
+    position: relative;
+    top: -26px;
+}
+.addToStoreBtn{
+    background-color: lightgray;
+    position: relative;
+    right: -196px;
+    top: -49px;
+    width: 208px;
+    color: #000;
+    cursor: pointer;
 }

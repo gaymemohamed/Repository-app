@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Add New Amount</title>
+  <title>Bill Record</title>
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap4-min.css">
   <link rel="stylesheet" href="css/style.css">
@@ -39,36 +39,45 @@
 <section class="dash-boby mt-5">
     <div class="container">
         <div class="row">
-            <!-- start add to store -->  
-            <div class="col-md-8 add-to-store">
+<!-- start bill record -->  
+            <div class="col-md-8 users">
                 <div class="card main-card">
                     <div class="card-header">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="#">لوحة التحكم</a></li>
-                            <li class="breadcrumb-item active">إضافة كمية جديدة</li>
+                            <li class="breadcrumb-item active">سجل الفواتير</li>
                         </ol>
                     </div>
                     <br>
                     <div class="content"> 
                     <div class="col  ml-auto">
-                        <form class="inputUserData">
-                            <fieldset>
-                                <legend class="storeLegand">إضافة الي المخزون</legend>
-                                <div class="form-group row">
-                                        <div class="col-sm-9">
-                                          <input type="text" class="form-control" id="inputNewAmount" placeholder="">
-                                        </div>
-                                        <label for="inputNewAmount" class="col-sm-3 col-form-label">إضافة كمية جديدة</label>
-                                      </div>
-                                            
-                            <button type="submit" class="addToStoreBtn btn btn-block">إضافة الكمية</button>
-                            </fieldset>
-                        </form>        
+                            <table class="table table-striped users-table">
+                                    <thead class="thead-inverse">
+                                    <tr>
+                                        <th>إجمالي الفاتورة</th>
+                                        <th>العنوان</th>
+                                        <th>التاريخ</th>
+                                        <th>اسم العميل</th>
+                                        <th>رقم الفاتورة</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>2800</td>
+                                        <td>مصر الجديدة</td>
+                                        <td>12-1-2018</td>
+                                        <td>احمد حسن</td>
+                                        <td>1</td>
+                                    </tr>
+                                    </tbody>
+                                    </table>
+                                    <button class="btn btn-lg newBillBtn">عمل فاتورة جديدة</button>
                 </div>
             </div>
             </div>
             </div>
-            <!-- start side bar -->
+            
+<!-- start side bar -->
             <div class="col-md-4">
                 <div class="card">
                     <div class="card-header">

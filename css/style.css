@@ -168,10 +168,60 @@ th{
 }
 .addToStoreBtn{
     background-color: lightgray;
-    position: relative;
-    right: -140px;
-    top: -49px;
-    width:320px;
     color: #000;
+    width: 74%;
     cursor: pointer;
+}
+/* end objectds table */
+
+/* start add new object */
+.addObjLegand{
+    background-color: lightgrey;
+    width: 220px;
+    color: #000;
+    font-size: 23px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    position: relative;
+    top: -60px;
+    right: -408px;
+}
+.addObjBtn{
+    display: block;
+    width: 83%;
+}
+/* end add new object */
+/* start bill Record */
+.newBillBtn{
+    float: right;
+}
+/* end bill Record */
+.inputBillData{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 14px;
+}
+.inputBillData .form-row{
+    position: relative;
+    top: -35px;
+    padding: 5px;
+}
+.billLegand{
+    background-color: lightgrey;
+    width: 102px;
+    color: #000;
+    font-size: 23px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    position: relative;
+    top: -33px;
+    right: -528px;
+}
+.makeBillBtn{
+    float: right;
+    width: 50%;
+    margin-bottom: -56px;
+    margin-top: -47px;
 }

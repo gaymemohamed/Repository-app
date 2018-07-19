@@ -197,15 +197,24 @@ th{
     float: right;
 }
 /* end bill Record */
+/* start bill  */
 .inputBillData{
     border: 1px solid #ccc;
     padding: 10px;
     border-radius: 14px;
+    height: 490px;
 }
-.inputBillData .form-row{
+.make-new-bill .main-card{
+    height: 610px;
+}
+.inputBillData .row{
     position: relative;
     top: -35px;
     padding: 5px;
+}
+.inputBillData button{
+    position: relative;
+    top: -30px;
 }
 .billLegand{
     background-color: lightgrey;
@@ -222,6 +231,24 @@ th{
 .makeBillBtn{
     float: right;
     width: 50%;
-    margin-bottom: -56px;
-    margin-top: -47px;
+}
+/* end bill */
+/* start print bill */
+.printBill .card-header{
+    text-align: center;
+}
+.printBillBtn{
+    margin-left: 440px;
+}
+.printBillHeader .userName{
+    float: right;
+}
+.printBillHeader .userAdress{
+    float: right;
+}
+.printBillHeader .billDate{
+    float: right;
+}
+.printBillHeader .totalPrice{
+    float: right;
 }

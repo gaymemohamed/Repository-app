@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Single Bill</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap4-min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- start dash body section -->
+<section class="dash-boby mt-5">
+    <div class="container">
+        <div class="row">
+<!-- start print bill  -->  
+            <div class="col printBill">
+                <div class="card main-card">
+                    <div class="card-header">
+                        <h2>فاتورة من : الحرايري</h2>
+                    </div>
+                    <br>
+                    <div class="content"> 
+                    <div class="col  ml-auto">
+                        <div class="printBillHeader">
+                        <div class="firstRow pb-5">
+                            <span class="lead userName">/اسم العميل </span>
+                            <span class="lead userAdress col-sm-6">/العنوان </span>
+                        </div>
+                        <div class="secondRow pb-5">
+                            <span class="lead billDate">/تاريخ الفاتورة </span>
+                            <span class="lead totalPrice col-sm-6">/السعر الإجمالي</span>    
+                        </div>  
+                        </div>
+                            <table class="table table-striped users-table">
+                                    <thead class="thead-inverse">
+                                    <tr>
+                                        <th>السعر الإجمالي</th>
+                                        <th>سعر الوحدة</th>
+                                        <th>نوع الوحدة</th>
+                                        <th>عدد الوحدة</th>
+                                        <th>إسم الصنف</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>30</td>
+                                        <td>3</td>
+                                        <td>سيخ</td>
+                                        <td>10</td>
+                                        <td>ماسورة</td>
+                                    </tr>
+                                    <tr>
+                                        <td>30</td>
+                                        <td>3</td>
+                                        <td>سيخ</td>
+                                        <td>10</td>
+                                        <td>ماسورة</td>
+                                    </tr>
+                                    </tbody>
+                                    </table>
+                                    <button class="btn btn-lg printBillBtn">طباعة الفاتورة</button>
+                </div>
+            </div>
+            </div>
+            </div> 
+        </div>
+    </div>
+</section>
+<script src="js/jquery.js"></script>
+<script src="js/propper.js"></script>
+<script src="js/bootstrap4-min.js"></script>
+</body>
+</html>

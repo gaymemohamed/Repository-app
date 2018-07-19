@@ -240,15 +240,6 @@ th{
 .printBillBtn{
     margin-left: 440px;
 }
-.printBillHeader .userName{
-    float: right;
-}
-.printBillHeader .userAdress{
-    float: right;
-}
-.printBillHeader .billDate{
-    float: right;
-}
-.printBillHeader .totalPrice{
+.printBillHeader span{
     float: right;
 }
